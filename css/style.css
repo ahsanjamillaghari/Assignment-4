@@ -1,0 +1,39 @@
+.colornav{
+background-color: #387187;
+}
+.navhead{
+color: #231651 !important;
+}
+.mainheading{
+font-size: xx-large;
+font-family: aakar,cursive;
+color: #231651;
+}
+.subheading{
+color: #615167;
+}
+.contactlabels{
+    color: #615167
+}
+.underline{
+    text-decoration: #d9534f;
+    text-decoration-line: underline;
+}
+.background{
+    background-color: #FADBD8;
+}
+.animation{
+    animation: pulse 0.8s infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+    }
+    70% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.95);
+    }
+
+}
